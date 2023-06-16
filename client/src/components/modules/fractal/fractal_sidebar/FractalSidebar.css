@@ -1,0 +1,147 @@
+.sidebar_container {
+    height: calc(100vh-var(--xxl));
+    width: 300px;
+    display: block;
+    background-color: var(--lightgrey);
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow: 0 calc(var(--s) / 8) calc(var(--s)/2) 0 #fdfdfd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .sidebar_container::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera 
+}
+ */
+.sidebar-scrolling_container {
+    width: 100%;
+}
+
+.sidebar-open-initial_button {
+    background-color: var(--primary--dim);
+    color:var(--white);
+    padding: var(--m);
+}
+
+.sidebar_input {
+    width: 100%;
+}
+
+.general_extra_padding {
+    padding-bottom: var(--s);
+}
+
+.fractal-sidebar-color_input {
+    width: 100%;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+    border-width: var(--l);
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+    border-width: var(--l);
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+    border-width: var(--l);
+}
+
+.box-shadow {
+    box-shadow: 0 calc(var(--s) / 8) calc(var(--s)) 0 #ccc;
+}
+
+.fractal-sidebar-section-edit_container {
+    width: calc(100% - 1 * var(--s));
+    margin: var(--xs) 0 0 var(--s);
+    border-radius: var(--m);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fractal-sidebar-section-title_text {
+    width: 100%;
+    border-radius: var(--m);
+    padding: var(--s) var(--m);
+    background-image: linear-gradient(90deg, var(--blue) 0%, var(--purple) 100%);
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--m);
+    font-weight: 400;
+}
+
+.fractal-sidebar-section-list_container{
+    width: 100%;
+    padding: var(--s) var(--m) 0 var(--m);
+}
+
+
+.fractal-sidebar_divider {
+    height: 2px;
+    width: 100%;
+    margin: var(--s) 0;
+    background-color: var(--medgrey);
+}
+
+.fractal-sidebar-add-new_button {
+    width: max-content;
+    border-radius: var(--m);
+    padding: var(--s);
+    color: black;
+    background-color: white;
+    transition: 200ms;
+    text-align: center;
+    margin-bottom: var(--s);
+}
+
+.fractal-sidebar-add-new_button:hover {
+    background-color: var(--medgrey);
+}
+
+.fractal-sidebar-edit-remove_button {
+    width: var(--l);
+    height: var(--l);
+    border-radius: var(--m);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+}
+
+.fractal-sidebar-edit-remove_button:hover {
+    background-color: rgba(252, 53, 3, 0.2);
+}
+
+.fractal-sidebar-edit-hint_text {
+    font-size: 14px;
+}
+
+.hint_text-extra-margin {
+    padding: var(--s) 0;
+}
+
+.instruction-icon {
+    width: var(--xl);
+    height: var(--xl);
+    text-align: center;
+    border-radius: var(--m);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    line-height: var(--xl);
+}
+
+.symbol {
+    background-color: var(--purple);
+    font-size: 18px;
+}
+
+.operator {
+    background-color: var(--blue);
+}

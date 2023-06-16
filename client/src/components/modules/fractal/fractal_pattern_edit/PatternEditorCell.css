@@ -1,0 +1,27 @@
+.pattern-editor-cell_container {
+    display: block;
+    padding: var(--m);
+    width: 248px;
+}
+
+.invisible {
+    display: none;
+}
+.select-shape_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--s);
+}
+
+.pattern-editor-cell_button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: var(--s);
+    background-color: white;
+}
+
+.pattern-editor-cell_button.selected {
+    box-shadow:0px 0px 0px 2px blue inset;
+}

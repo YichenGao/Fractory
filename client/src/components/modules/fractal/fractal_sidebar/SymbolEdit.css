@@ -1,0 +1,23 @@
+.symbol-edit_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.symbol-edit_container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--s) 0;
+}
+
+.symbol-edit-hint_text {
+    margin: calc(var(--s) / 2) 0;
+}
+
+.symbol-edit_input {
+    margin: var(--s) 0;
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+.Pattern-container {
+  display: flex;
+  width: 100%;
+}
+
+.Pattern-steps {
+  flex: 1;
+  width: 100%;
+}
+
+.Pattern-sidebar {
+  flex: 1 0 300px;
+  display: flex;
+  flex-flow: column;
+  padding: var(--l);
+}
+
+.Pattern-content {
+  flex: 2;
+  padding: var(--s);
+  margin: auto;
+}
+
+.Pattern-title {
+  flex: 2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: max(3vw, 36px);
+}
+
+.Pattern-body {
+  flex: 3;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: max(2vw, 24px);
+}
+
+.Pattern-stepNav {
+  flex: 1;
+}

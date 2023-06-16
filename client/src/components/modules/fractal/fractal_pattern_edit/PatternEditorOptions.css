@@ -1,0 +1,42 @@
+.fractal-initial-option_container {
+    padding: var(--m);
+    background-color: var(--white);
+    transition: 200ms;
+}
+
+.fractal-initial-option_container.selected {
+    background-color: var(--purple);
+    color: white
+}
+
+.fractal-initial-option_container:hover {
+    background-color: var(--medgrey);
+}
+
+.fractal-initial-option_container.selected:hover {
+    background-color: var(--purple);
+}
+
+.pattern-editor-option-title_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fractal-initial-option-done_img {
+    visibility: hidden;
+}
+
+.done-img_visible {
+    visibility: visible;
+}
+
+.fractal-initial-option-title {
+    font-weight: bold;
+}
+
+.fractal-initial-option-hint {
+    font-style: italic;
+}

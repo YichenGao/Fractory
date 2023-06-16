@@ -1,0 +1,50 @@
+.operator-edit_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.operator-edit_container2, .operator-edit_container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: calc(var(--s) / 2) 0;
+}
+
+
+.operator-edit_button {
+    width: var(--xl);
+    height: var(--xl);
+    border-radius: var(--l);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: seagreen;
+    transition: 200ms;
+}
+
+.operator-edit-remove_button {
+    width: var(--l);
+    height: var(--l);
+    border-radius: var(--m);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+}
+
+.operator-edit-remove_button:hover {
+    background-color: rgba(252, 53, 3, 0.2);
+}
+
+.operator-edit_button:hover {
+    background-color: green;
+}
+
+.operator-edit_button.spacer {
+    flex-grow: 1;
+}

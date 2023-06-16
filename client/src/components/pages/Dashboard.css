@@ -1,0 +1,41 @@
+.Dashboard-background {
+  background-color: var(--primary--dark);
+  height: 100%;
+  padding: var(--xxl);
+  padding-top: var(--xl);
+}
+
+.Dashboard-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: var(--l);
+}
+
+.Dashboard-cardList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(21%, 1fr));
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  row-gap: var(--xl);
+  height: 100%;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: white;
+}
+
+.Dashboard-loginWarning {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8vmin;
+  color: white;
+
+  margin: auto;
+  text-align: center;
+}
+
+.Dashboard-linkText {
+  text-decoration: none;
+}

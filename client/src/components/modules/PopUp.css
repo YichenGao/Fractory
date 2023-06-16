@@ -1,0 +1,6 @@
+.Alert {
+  position: absolute;
+  top: calc(var(--m));
+  left: 50%;
+  transform: translate(-50%, 0);
+}

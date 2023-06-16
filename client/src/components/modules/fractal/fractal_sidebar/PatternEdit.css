@@ -1,0 +1,99 @@
+.pattern-edit_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pattern-edit_container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--s) 0;
+}
+
+.pattern-edit_container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: var(--s);
+}
+
+.pattern-edit-symbol-names_container{
+    padding: 0 0 0 var(--m);
+}
+
+.pattern-edit-name_text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pattern-edit-symbol-names_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: calc(var(--s)/2);
+}
+
+.pattern-edit-symbol-name_text {
+    transition: 200ms;
+}
+
+.pattern-edit-symbol-name_text:hover {
+    background-color: #fc3503;
+}
+
+.pattern-edit-symbol-dropdown_container {
+    height: fit-content;
+    width: var(--xl);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--xl);
+    align-items: center;
+}
+
+.pattern-edit-symbol-add_button {
+    margin: var(--xs);
+    width: var(--l);
+    height: var(--l);
+    border-radius: var(--m);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+}
+
+.pattern-edit-symbol-dropdown-content_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--xxl);
+    visibility: hidden;
+    position: absolute;
+
+    top: var(--xl);
+    border-radius: var(--l);
+    background-color: white;
+    padding: var(--s) 0;
+}
+
+/**
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover
+*/
+
+.pattern-edit-symbol-dropdown_container:hover .pattern-edit-symbol-dropdown-content_container {
+    visibility: visible;
+    box-shadow: 0 calc(var(--s) / 8) calc(var(--s)) 0 var(--medgrey);
+}
+
+.pattern-edit-symbol-dropdown_container:hover .pattern-edit-symbol-add_button{
+    background-color: rgba(46,139,87,0.2);
+}
+
+.pattern-edit-symbol-dropdown-content_container div:hover {
+    background-color: green;
+}

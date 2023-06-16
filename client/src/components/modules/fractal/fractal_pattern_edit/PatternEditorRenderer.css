@@ -1,0 +1,23 @@
+.create-initial-svg_container {
+    background-color: var(--white);
+    width: 800px;
+    height: 800px;
+}
+
+.create-initial-selected {
+    background-color: var(--black);
+    stroke: '#444';
+}
+
+.create-initial-selected:hover {
+    background-color: '#444';
+}
+
+.create-initial-unselected {
+    background-color: var(--white);
+    stroke: '#ddd';
+}
+
+.create-initial-unselected:hover {
+    background-color: '#ddd';
+}

@@ -1,0 +1,50 @@
+.Card-container {
+  /* flex-basis: 21%; */
+  height: 320px;
+  width: 21vw;
+  display: flex;
+  flex-flow: column;
+  row-gap: var(--m);
+  padding: var(--l);
+}
+
+.Card-svgRenderer {
+  flex: 3;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: top;
+  overflow: hidden;
+
+  border: 2px solid var(--primary);
+  border-radius: var(--l);
+  padding: var(--xl);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#svgContainer {
+  display: block;
+  margin: auto;
+}
+
+.Card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Card-caption {
+  flex: 1;
+  text-align: center;
+  border-radius: var(--l);
+  font-size: 28px;
+}
+
+.Card-caption-editing {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-width: 0;
+  color: white;
+}
+
+.Card-caption-editing:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

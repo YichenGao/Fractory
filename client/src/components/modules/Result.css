@@ -1,0 +1,33 @@
+.Result-container {
+  width: 100%;
+  height: 100%;
+}
+
+.Result-top {
+  display: flex;
+}
+
+.Result-svgRenderer {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* aspect ratio */
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.Result-svgResponsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.Result-steps {
+  width: 100%;
+  flex: 1 0 300px;
+}
+
+.Result-stepNav {
+  flex: 2;
+}

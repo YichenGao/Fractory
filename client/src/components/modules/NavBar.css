@@ -1,0 +1,111 @@
+.NavBar-container {
+  height: var(--xxl);
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  justify-content: start;
+  font-size: var(--m);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.NavBar-logoContainer {
+  height: var(--xxl);
+}
+
+.NavBar-logo {
+  height: var(--xxl);
+  align-items: center;
+  margin: 0px;
+  padding: 0px var(--m);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavBar-logoIcon {
+  padding: var(--s) 0;
+  height: 100%;
+  object-fit: contain;
+}
+
+.NavBar-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.NavBar-linkText {
+  height: var(--xxl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px var(--m);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.NavBar-linkText:hover {
+  background-color: var(--primary--dim);
+}
+
+.NavBar-login {
+  margin-left: auto;
+}
+
+.NavBar-menu {
+  display: none;
+  width: var(--xxl);
+  height: var(--xxl);
+}
+
+.NavBar-menu:hover {
+  background-color: var(--primary--dim);
+}
+
+.NavBar-menu-icon {
+  color: var(--white);
+  fill: var(--white);
+  height: var(--xl);
+  object-fit: contain;
+}
+
+.filter-white {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(44deg)
+    brightness(105%) contrast(104%);
+}
+
+.inactive {
+  display: none;
+}
+
+/* for mobile screens */
+@media (max-width: 840px) {
+  .NavBar-container {
+    height: fit-content;
+    flex-direction: column;
+  }
+  .NavBar-list {
+    margin: 0px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .NavBar-linkText {
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .NavBar-menu {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+  }
+  .NavBar-login {
+    margin-left: 0px;
+  }
+}

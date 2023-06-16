@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.ArtCreator-background {
+  background-color: var(--primary--dark);
+  display: flex;
+  height: 100%;
+  padding: var(--l);
+}
+
+.ArtCreator-loginWarning {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8vmin;
+  color: white;
+
+  margin: auto;
+  text-align: center;
+}

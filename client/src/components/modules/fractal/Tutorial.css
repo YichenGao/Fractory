@@ -1,0 +1,57 @@
+.tutorial_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgba(0, 0,0, 0.7);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tutorial-content_container{
+    width: fit-content;
+    max-width: 800px;
+    max-height: 85vh;
+    height: fit-content;
+    border-radius: var(--xl);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--s) var(--l);
+}
+
+.tutorial-title_text {
+    display: inline-block;
+    color:black;
+    font-weight: bold;
+    font-size: var(--xl);
+    padding: var(--s);
+}
+
+.tutorial-body-text_container{
+    margin: var(--s) 0;
+    overflow-y: scroll;
+}
+.tutorial_text{
+    color: black;
+    font-size: var(--m);
+}
+.tutorial-bold {
+    font-weight: bold;
+}
+
+.tutorial-proceed_button{
+    width: fit-content;
+    border: 2px solid green;
+    background-color: white;
+    color:green;
+    padding: var(--m);
+    transition-duration: 200ms;
+}
+
+
+.tutorial-proceed_button:hover {
+    background-color: green;
+    color:white;
+}

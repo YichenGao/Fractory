@@ -1,0 +1,62 @@
+.fractal-navbar_container {
+    width: 100%;
+    height: var(--xxl);
+    padding-right: var(--xxl);
+    background-image: linear-gradient(90deg, var(--blue) 0%, var(--purple) 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fractal-navbar-back_button {
+    width: var(--xxl);
+    height: var(--xxl);
+    border-radius: var(--xxl);
+    transition: 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fractal-navbar-back_button:hover {
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+.fractal-navbar-sidebar_input {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    flex-grow: 1;
+    font-size: var(--l);
+}
+
+.fractal-navbar-sidebar_input::placeholder {
+    font-style: italic;
+    color: rgba(256, 256, 256, 0.5);
+}
+
+.fractal-navbar-download_button, .fractal-navbar-tutorial_button{
+    height: 100%;
+    padding: 0 var(--l);
+    display: flex;
+    align-items: center;
+    color: white;
+    line-height: 100%;
+    font-weight: bold;
+    transition: 500ms;
+    text-decoration: none;
+}
+
+.fractal-navbar-tutorial_button a {
+    text-decoration: none;
+    color: white;
+}
+
+.fractal-navbar-tutorial_button a:hover {
+    color: white;
+}
+
+.fractal-navbar-download_button:hover, .fractal-navbar-tutorial_button:hover {
+    background-image: linear-gradient(90deg, var(--blue) 0%, var(--purple) 100%);
+}

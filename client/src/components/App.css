@@ -1,0 +1,13 @@
+.App-container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.App-navbar {
+  flex: 0 0 var(--xxl);
+}
+
+.App-content {
+  flex: 1;
+}

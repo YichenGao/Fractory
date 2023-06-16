@@ -1,0 +1,45 @@
+.Parameters-container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.Parameters-title {
+  flex: 2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: max(3vw, 36px);
+}
+
+.Parameters-body {
+  flex: 3;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: max(2vw, 24px);
+}
+
+.Parameters-input {
+  border-width: 0;
+  border-radius: var(--m);
+  text-align: center;
+  width: max(4vw, 48px);
+  background-color: rgb(105, 135, 219, 0.3);
+  color: white;
+}
+
+.Parameters-stepNav {
+  flex: 1;
+}
+
+.Parameters-counterButton {
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+  color: white;
+  text-align: center;
+}
+
+.Parameters-counterButton:hover {
+  background-color: rgb(105, 135, 219, 0.3);
+  border-radius: var(--m);
+}

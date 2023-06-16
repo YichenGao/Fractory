@@ -1,0 +1,46 @@
+.centerImage {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+}
+
+.home-background {
+  background-color: var(--primary--dark);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.carousel-inner {
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
+  overflow: hidden;
+}
+
+.btn_style {
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  text-shadow: 0.07em 0 0.7em var(--primary--dark), 0 0.07em 0.7em var(--primary--dark),
+    -0.07em 0 0.7em var(--primary--dark), 0 -0.07em 0.7em var(--primary--dark);
+}
+
+.item {
+  transition: transform 1s ease, opacity 0.5s ease-out;
+}
+
+.link-text {
+  text-decoration: none;
+}
